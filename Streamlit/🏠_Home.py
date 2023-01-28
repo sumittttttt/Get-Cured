@@ -1,5 +1,15 @@
 import streamlit as st
 
+
+#streamlit page config
+st.set_page_config(page_title="Get Cured", page_icon="‍⚕")
+hide_menu_style ="""
+        <style>
+        footer{visibility:hidden;}
+        </style>
+"""
+st.markdown(hide_menu_style, unsafe_allow_html=True)
+
 st.markdown("# Get Cured 🧑‍⚕️")
 st.markdown('## All in One Machine learning based platform that helps you to identify the disease.')
 
